@@ -25,14 +25,14 @@ Access the live app here: [Solar Power Deployment](https://solar-power-deploymen
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/ShivaniIngale05/solae-powe-deployment.git
+   git clone https://github.com/ShivaniIngale05/solae-power-deployment.git
    cd solar-power-deployment
     ```
-2.Install dependencies:
+2. Install dependencies:
  ```bash
  pip install -r requirements.txt
    ```
-3.Run the app
+3. Run the app
  ```bash
 
 streamlit run app.py
