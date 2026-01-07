@@ -25,7 +25,7 @@ Access the live app here: [Solar Power Deployment](https://solar-power-deploymen
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/ShivaniIngale05/solae-power-deployment.git
+   git clone https://github.com/ShivaniIngale05/solar-power-deployment.git
    cd solar-power-deployment
     ```
 2. Install dependencies:
