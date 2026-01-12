@@ -10,7 +10,7 @@ st.set_page_config(
     layout="centered"
 )
 
-# ---------------- 2. DARK AESTHETIC THEME (from app.py) ----------------
+# ---------------- 2. DARK AESTHETIC THEME  ----------------
 st.markdown(
     """
     <style>
@@ -49,7 +49,7 @@ except:
     # Fallback image if solar.png is missing
     st.image("https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?auto=format&fit=crop&w=800&q=80")
 
-# ---------------- 4. LOAD DATA & MODEL (from app(1).py) ----------------
+# ---------------- 4. LOAD DATA & MODEL ----------------
 try:
     # Load your specific trained Gradient Boosting model
     model = pickle.load(open("final_gb_model.pkl", "rb"))
@@ -59,7 +59,7 @@ except FileNotFoundError:
     st.error("⚠️ Error: 'final_gb_model.pkl' or 'final_model_data.csv' not found in GitHub!")
     st.stop()
 
-# ---------------- 5. UNIT MAPPING (from app.py) ----------------
+# ---------------- 5. UNIT MAPPING ----------------
 UNIT_MAP = {
     "humidity": "%",
     "wind_direction": "°",
