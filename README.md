@@ -1,6 +1,4 @@
-# Solar Power Prediction App
-
-This is a **Streamlit app** for predicting solar power generation using a trained Gradient Boosting model.  
+# Solar Power Prediction Project  
 
 The objective of the project is to build an accurate regression model that can predict solar power output based on environmental and system-related features, and to deploy the trained model as a user-friendly web application.
 
