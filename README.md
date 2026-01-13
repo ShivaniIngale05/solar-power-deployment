@@ -10,7 +10,7 @@ The Google Drive folder contains the following components:
 
 1. Notebook
 
-Solar_Power_Prediction.ipynb (Google Colab Notebook)
+P616 : Solar_Power_Prediction.ipynb (Google Colab Notebook)
 
 Includes:
 
